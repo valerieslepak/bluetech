@@ -1,0 +1,30 @@
+Christian Leonard:
+Make clear that it’s coding languages
+Highlight active link
+Fix input fields
+Notification that project has been posted, return to my account
+Add back to top link in projects page
+Search bar to search for specific words in projects/profiles?
+
+Rachel Settle:
+Home redirects to sign up if no user is logged in
+Sign up page:
+-          When creating an account separate it into different lines
+-          Display text above instead of as placeholder
+-          Dropdown menu for languages
+Home page:
+-          If I’m a researcher, where would I go next?
+-          If I’m a student, where would I go next?
+-          Dead end page – add links to where you should go based on what kind of user you are
+Projects/Profiles Page:
+-          Can you click on email when you go through the project or profiles page?
+-          Would be helpful to sort by language 
+Since users fall into two categories (student or professor), the website could be more focused on this division. As a professor, the focus should be on the available students and their abilities (perhaps sort by language, or keyword in interests). As a student looking for a professor, the focus should be on current projects by professors, and what those professors are looking for in a student.
+
+Riley Hockett:
+Here are  some notes from your website demo:
+make the boxes for languages dropdowns
+put user name in the navbar
+should be able to click on project in order to see more detailed view
+Maybe don't load alll users on one page (batch load)
+

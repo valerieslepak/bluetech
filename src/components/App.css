@@ -1,0 +1,332 @@
+:global(body) {
+    max-width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    background-image: url(backgroundImage.png);
+    background-repeat:repeat;
+    background-size: 1500px;
+}
+
+:global(#root) {
+    background-color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: #e6e6e6;
+    border-width: 2px;
+}
+
+:global(.navBar) {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #3463D9;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+:global(.routes) {
+    display: inline;
+}
+
+:global(.mainHeading) {
+    margin:0;
+    max-width: 80%;
+    transform: translate(10%, 0%);
+}
+
+:global(.headerPic) {
+    background-color: #3463D9;
+    border-bottom-width: .5px;
+    border-bottom-color: #e6e6e6;
+    border-bottom-style: solid;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    text-align: center;
+}
+
+:global(.signUp) {
+    background-color: #3463D9;
+    text-align: center;
+    color: white;
+    padding: 4px;
+    border-style: double;
+    font-size: 16px;
+    display: block;
+    border-radius: 5px;
+    font-weight: 100;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: inherit;
+    margin-top: 10px;
+}
+
+:global(.projFields) {
+    width: 60%;
+}
+
+:global(.nameFields) {
+    margin-bottom: 5px;
+}
+
+.signIn button {
+    background-color: #3463D9;
+    font-weight: 100;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    padding: 6px;
+    font-size: 16px;
+    display: block;
+    width: 298px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+:global(.signInForm input) {
+    width: 290px;
+    max-width: 290px;
+    height: 20px;
+}
+
+:global(.signIn) {
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 220px;
+    max-width: 300px;
+    border-width: 2px;
+    border-style: double;
+    border-color: #666666;
+    text-align: center;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+:global(.signInHeading) {
+    display:inline;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #666666;
+    font-weight: 100;
+}
+
+:global(.signInHeading2) {
+    display:inline;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: #666666;
+    font-weight: 100;
+}
+
+:global(.signInForm) {
+    clear: both;
+    margin-top: 50px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+:global(.userCredentials) {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: -40px;
+    margin-bottom: -2px;
+}
+
+:global(.individual) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #e8f2fc;
+    border: #666666;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 90%;
+    transform: translate(5%, 0%);
+}
+
+:global(.profiles) {
+    max-width: 90%;
+    transform: translate(5%, 0%);
+}
+
+:global(.homeHeading) {
+    max-width: 90%;
+    transform: translate(5%, 0%);
+    text-align: center;
+    font-weight: 100;
+    text-emphasis: none;
+    
+}
+
+:global(.welcome) {
+    max-width: 80%;
+    transform: translate(10%, 0%);
+    font-weight: 100;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #666666;
+    border-width: 1px;
+    clear: both;
+    color: #666666;
+}
+
+
+:global(.welcomeHeadingProf) {
+    display:inline;
+    float: left;
+    max-width: 40%;
+    margin-bottom: 10px;
+    transform: translate(15%, 0%);
+    font-weight: 100;
+    font-size: 16px;
+    background-color: #3463D9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: double;
+    border-width: 2px;
+    border-color: #e6e6e6;
+    border-radius: 5px;
+    color: white;
+}
+
+:global(.welcomeHeadingStudent) {
+    display:inline;
+    float: right;
+    max-width: 40%;
+    margin-bottom: 10px;
+    transform: translate(-15%, 0%);
+    font-weight: 100;
+    font-size: 16px;
+    background-color: #3463D9;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: double;
+    border-width: 2px;
+    border-color: #e6e6e6;
+    border-radius: 5px;
+    color: white;
+}
+
+:global(.pLink) {
+    background-color: #e6e6e6;
+    text-align: center;
+    color: #666666;
+    padding: 4px;
+    border-style: double;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+:global(.accountLinks) {
+    background-color: #e6e6e6;
+    text-align: center;
+    color: #666666;
+    border-style: double;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
+:global(.links) {
+    text-align: center;
+}
+
+:global(.formsHeading) {
+    text-align: left;
+    max-width: 90%;
+    transform: translate(5%, 0%);
+    font-weight: 100;
+    text-emphasis: none;
+}
+
+:global(.forms) {
+    text-align: left;
+    max-width: 90%;
+    transform: translate(5%, 0%);
+}
+
+:global(.saveChanges) {
+    background-color: #e6e6e6;
+    text-align: center;
+    color: #666666;
+    border-style: double;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: block;
+}
+
+:global(.accountInfo) {
+    font-weight: 100;
+    max-width: 90%;
+    transform: translate(5%, 0%);
+}
+
+:global(.smallFields) {
+    width: 200px;
+}
+
+:global(.projInfo) {
+    font-weight: bold;
+}
+
+.accountInfo p {
+    margin: 2px;
+    background-color: #e8f2fc;
+    color: #666666;
+    border-style: solid;
+    border-color: #666666;
+    border-width: .5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+:global(.signOut) {
+    background-color: #3463D9;
+    display: inline;
+    float: right;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    clear:both;
+    vertical-align: center;
+    font-weight: 100;
+    margin-right: 15px;
+}
